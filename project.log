@@ -106,3 +106,19 @@
 2026-03-09 19:54:15 | INFO | CI | ROOT_PATH = .
 2026-03-09 19:54:15 | INFO | CI | NOTEBOOKS_PATH = notebooks
 2026-03-09 19:54:15 | INFO | CI | SCRIPTS_PATH = scripts
+2026-03-10 18:04:57 | INFO | CI | === RUN START ===
+2026-03-10 18:04:57 | INFO | CI | project=NLP
+2026-03-10 18:04:57 | INFO | CI | repo_dir=nlp-01-getting-started
+2026-03-10 18:04:57 | INFO | CI | python=3.14.3
+2026-03-10 18:04:57 | INFO | CI | os=Windows 11
+2026-03-10 18:04:57 | INFO | CI | shell=powershell
+2026-03-10 18:04:57 | INFO | CI | cwd=.
+2026-03-10 18:04:57 | INFO | CI | github_actions=False
+2026-03-10 18:04:57 | INFO | CI | START script.....
+2026-03-10 18:04:57 | INFO | CI | ROOT_PATH = .
+2026-03-10 18:04:57 | INFO | CI | NOTEBOOKS_PATH = notebooks
+2026-03-10 18:04:57 | INFO | CI | SCRIPTS_PATH = scripts
+2026-03-10 18:06:44 | INFO | CI | ========================
+2026-03-10 18:06:44 | INFO | CI | Pipeline executed successfully!
+2026-03-10 18:06:44 | INFO | CI | ========================
+2026-03-10 18:06:44 | INFO | CI | END main()
