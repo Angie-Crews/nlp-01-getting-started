@@ -55,7 +55,7 @@ exclude = [
 ]
 line-length = 88 # WHY: PEP 8 standard line length, wrap when possible.
 preview = false # WHY: Stable features only; avoid preview features.
-target-version = "py313" # WHY: Match latest supported Python version.
+target-version = "py314" # WHY: Match latest supported Python version.
 unsafe-fixes = false # WHY: Avoid potentially unsafe automatic fixes.
 
 [tool.ruff.format]
