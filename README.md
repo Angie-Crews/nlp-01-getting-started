@@ -123,6 +123,39 @@ git push -u origin main
 
 </details>
 
+## Lesson P1: Custom Project & Engage -- Part 2
+
+The following workflow steps were completed in this project from the repository root.
+
+### 1. Run Code
+
+- `uv run python -m nlp.web_words_case`
+- Result: pipeline executed successfully and `project.log` was generated.
+
+### 2. Add or Update Dependencies
+
+- `uv cache clean`
+- `uv sync --extra dev --extra docs --upgrade`
+- `uv add --dev pytest pytest-cov`
+
+### 3. Run Checks and Tests
+
+- `uv run ruff format .`
+- `uv run ruff check . --fix`
+- `uv run pytest --cov=src --cov-report=term-missing`
+- Result: test tooling runs successfully; current project has no test files, so `pytest` reports no tests collected.
+
+### 4. Build and Serve Documentation
+
+- `uv run zensical build`
+- `uv run zensical serve`
+- Verification: local documentation server started successfully and was stopped with `Ctrl+C`.
+
+### 5. Finalize Changes
+
+- Changes were committed and pushed to `main`.
+- Repository status is clean after push.
+
 ## Notes
 
 - Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
