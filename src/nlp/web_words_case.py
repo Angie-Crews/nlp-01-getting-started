@@ -64,7 +64,7 @@ log_path(LOG, "SCRIPTS_PATH", SCRIPTS_PATH)
 # The Shakespeare page is simple and stable.
 # The Wikipedia page is interesting, but requires a User-Agent header.
 # url: str = "https://shakespeare.mit.edu/romeo_juliet/full.html"
-url: str = "https://en.wikipedia.org/wiki/Natural_language_processing"
+url: str = "https://www.gutenberg.org/files/55/55-h/55-h.htm"
 
 # Some sites reject requests that look like anonymous scripts.
 # This header helps the request look more like a normal browser visit.

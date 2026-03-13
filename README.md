@@ -164,3 +164,70 @@ The following workflow steps were completed in this project from the repository 
 ## Example Artifact (Output)
 
 ![Word Cloud Example](docs/images/word_cloud_example.png)
+
+
+## Assignment Name: Workflow 2.3: Read and Understand the Project -- Part 3
+
+### Goal
+
+By the end of this workflow, you should understand:
+
+- the purpose of the project
+- the main tools and techniques used
+- how data flows through the program
+
+### Read in this order
+
+1. **README.md**
+   Overview, problem statement, and run instructions.
+
+2. **docs/**
+   Project explanations and techniques used.
+
+3. **notebooks/** and **src/**
+   - Read notebooks top-to-bottom.
+   - In Python modules, locate the entry point:
+     ```python
+     def main():
+         ...
+
+     if __name__ == "__main__":
+         main()
+     ```
+   - Follow function calls and arguments to track program flow.
+
+4. **data/**
+   Input datasets and expected structure/format.
+
+5. **artifacts/** or **output/**
+   Generated outputs such as charts, metrics, and reports.
+
+6. **project.log**
+   Execution trace for validation and debugging.
+
+### What to capture
+
+- **Project purpose**
+- **Main tools/techniques**
+- **Data flow** (input -> processing -> output)
+- **Execution flow** (entry point, key functions, outputs)
+
+## Workflow 2.4: Technical Modification Record
+
+### What I changed
+- Created a modified notebook: `notebooks/web_words_crews.ipynb`.
+- Changed the analysis source URL to Project Gutenberg’s *The Wonderful Wizard of Oz*:
+  `https://www.gutenberg.org/files/55/55-h/55-h.htm`
+- Added a cleaning logic step to remove common stopwords after punctuation/lowercasing.
+- Updated the bar chart output to a horizontal Top 15 view for readability.
+
+### Why I made the change
+- To test the pipeline on a different real-world text source.
+- To reduce common-word noise and improve the usefulness of frequency results.
+- To make output visuals easier to interpret.
+
+### What I observed after running
+- The top-word list changed to terms more specific to the Wizard of Oz text.
+- The bar chart was easier to read with horizontal labels.
+- The word cloud looked more topic-focused after stopword filtering.
+- The notebook ran successfully end-to-end with the selected kernel.
